@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: #eaf2fb;
+  min-height: 100vh;
+  color: #222;
+}
+
+a, .nav-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover, .nav-link:hover {
+  color: #229ED9;
+}
+
+.sidebar {
+  background: #fff;
+  min-height: 100vh;
+  color: #222;
+  padding: 32px 0 0 0;
+  border-right: 1px solid #dbe5ef;
+  box-shadow: 2px 0 12px rgba(34,158,217,0.04);
+}
+
+.sidebar .active {
+  background: #eaf6fb;
+  border-radius: 12px;
+  color: #229ED9;
+  font-weight: 600;
+}
+
+.sidebar h2 {
+  font-weight: 700;
+  margin-bottom: 32px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #229ED9;
+  padding-left: 32px;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  margin: 10px 0;
+  padding: 12px 32px;
+  border-radius: 12px;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  font-size: 1.08rem;
+}
+
+.sidebar li:hover {
+  background: #eaf6fb;
+  color: #229ED9;
+}
+
+.main-content {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(34, 158, 217, 0.10);
+  margin: 32px 32px 32px 0;
+  padding: 40px 36px;
+  min-height: 80vh;
+}
+
+.tg-card, .card {
+  border-radius: 18px !important;
+  box-shadow: 0 2px 12px rgba(34, 158, 217, 0.10) !important;
+  background: #fff !important;
+  border: none !important;
+  margin: 24px 0;
+  padding: 0;
+  transition: box-shadow 0.2s;
+}
+
+.tg-card:hover, .card:hover {
+  box-shadow: 0 8px 32px rgba(34, 158, 217, 0.18) !important;
+}
+
+.tg-btn, .btn, button {
+  background: #229ED9 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 18px !important;
+  padding: 10px 28px !important;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(34, 158, 217, 0.08);
+  margin: 0 6px;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tg-btn:hover, .btn:hover, button:hover {
+  background: #0088cc !important;
+  box-shadow: 0 4px 16px rgba(34, 158, 217, 0.15);
+}
+
+.tg-btn-round {
+  border-radius: 50% !important;
+  width: 44px;
+  height: 44px;
+  padding: 0 !important;
+  font-size: 1.3em;
+}
+
+.tg-filter-block {
+  background: #f7fbff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(34, 158, 217, 0.07);
+  padding: 24px 18px;
+  margin-bottom: 24px;
+}
+
+.tg-filter-block label {
+  color: #229ED9;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.tg-filter-block .form-control,
+.tg-filter-block .form-select {
+  background: #fff !important;
+  border-radius: 12px !important;
+  border: 1px solid #dbe5ef !important;
+}
+
+input, select, textarea, .form-control, .form-select {
+  border: 1px solid #dbe5ef !important;
+  border-radius: 12px !important;
+  padding: 10px 16px !important;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s;
+  background: #f7fbff !important;
+}
+
+input:focus, select:focus, textarea:focus, .form-control:focus, .form-select:focus {
+  border: 1.5px solid #229ED9 !important;
+  outline: none;
+  background: #fff !important;
+}
+
+h1, h2, h3 {
+  color: #229ED9;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.tg-header-block {
+  background: #eaf6fb;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(34, 158, 217, 0.06);
+}
+
+.tg-filter-sidebar {
+  background: #f7fbff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(34, 158, 217, 0.07);
+  padding: 32px 20px;
+  min-width: 260px;
+  max-width: 340px;
+}

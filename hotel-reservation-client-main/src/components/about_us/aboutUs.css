@@ -1,0 +1,33 @@
+.AboutUs{
+    background: url("/public/images/aboutus.png") no-repeat center / cover;
+    height: 1050px;
+
+}
+.LeftSide{
+    position: relative;
+    top: 190px;
+    background: rgba(217, 217, 217, 0.65);
+    backdrop-filter: blur(20px);
+    width: 600px;
+    height: 860px;
+    padding: 20px 20px 20px 20px;
+    font-size: 40px;
+}
+.LeftSide .text{
+    font-family: 'Alex Brush', cursive;
+    color: #523724;
+}
+.SubmitAboutUs{
+    background: #523724;
+    border: none;
+    border-radius: 0;
+    font-size: 30px;
+    margin: 160px 0 0 0;
+    padding: 20px 120px 20px 120px;
+ }
+.SubmitAboutUs:hover{
+    background: white;
+    color: #523724;
+    font-weight: bolder;
+    border: 1px solid #523724;
+}

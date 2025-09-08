@@ -1,0 +1,18 @@
+.Gallery{
+    background: url("/public/images/gallery.png") no-repeat center / cover;
+    height: 1400px;
+    text-align: center;
+}
+h1{
+    font-family: 'Alex Brush', cursive;
+    font-size: 150px;
+    text-shadow: 0px 15px 6px rgba(0, 0, 0, 0.75);
+}
+.ImgGrid{
+    margin: 150px 0 0 0;
+    height: 100%;
+}
+.ContainerGallery{
+    background: transparent !important;
+    backdrop-filter: blur(20px);
+}

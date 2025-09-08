@@ -1,0 +1,43 @@
+.line {
+    height: 4px;
+    background-color: #523724;
+}
+
+.line-text {
+    font-family: 'Alex Brush', cursive;
+    position: absolute;
+    color: #523724 !important;
+    font-size: 70px !important;
+    background-color: white;
+}
+
+.our-location-title {
+    font-family: 'Alex Brush', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+@media all and (max-width: 700px){
+    .line-text {
+        font-size: 50px !important;
+    }
+
+    .line {
+        height: 3px;
+    }
+}
+
+@media all and (max-width: 400px){
+    .line-text {
+        font-size: 30px !important;
+        padding: 0 !important;
+    }
+
+    .line {
+        height: 2px;
+    }
+
+    .our-location-title {
+        font-size: 40px;
+    }
+}

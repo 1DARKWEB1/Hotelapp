@@ -1,0 +1,26 @@
+.foodInLanding {
+    width: 100%;
+}
+.FoodPage{
+    background: url("/public/images/delicious.jpg") no-repeat center / cover;
+    height: 1200px;
+}
+.DropDown{
+    height:1000px;
+    width: 1900px !important;
+}
+.TabBack{
+    border: none !important;
+    background: transparent !important;
+    backdrop-filter: blur(20px);
+    height: 100px;
+    font-family: 'Alex Brush';
+    font-size: 55px !important;
+}
+.TabBack:hover{
+    border-top: 1px solid #523724 !important;
+    border-right: 1px solid #523724 !important;
+    border-left: 1px solid #523724 !important;
+    background: white !important;
+    color: #523724 !important;
+}

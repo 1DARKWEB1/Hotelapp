@@ -1,0 +1,269 @@
+.fakaferry:hover {
+    color: #523724 !important;
+    background-color: white !important;
+
+}
+/*.active_Welcome{*/
+/*    backdrop-filter: blur(30px);*/
+/*}*/
+
+.navbar-top {
+    background-color: rgba(75, 50, 33, 0.47) !important;
+    backdrop-filter: blur(30px);
+}
+
+.logo {
+    width: 75px;
+}
+
+.welcome {
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: url("/public/images/home.jpg") no-repeat center / cover;
+}
+@media all and (max-height: 1500px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 1500px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+@media all and (max-height: 1400px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 1400px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+@media all and (max-height: 1300px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 1300px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+@media all and (max-height: 1200px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 1200px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+@media all and (max-height: 1100px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 1100px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+
+@media all and (max-height: 1000px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 1000px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+
+@media all and (max-height: 900px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 900px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+
+@media all and (max-height: 800px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 800px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+
+@media all and (max-height: 700px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 700px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+
+@media all and (max-height: 600px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 600px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+
+@media all and (max-height: 500px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 500px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+
+@media all and (max-height: 400px){
+    .welcome {
+        color: white;
+        width: 100%;
+        height: 400px;
+        background: url("/public/images/home.jpg") no-repeat center / cover;
+    }
+
+}
+
+
+
+.welcome_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.BtnNav{
+    width: 110px;
+}
+
+/*-----------------fonts-------------------*/
+
+.welcome_text p:first-child{
+    height: 30px;
+    font-size: 60px;
+    font-family: 'Alex Brush', cursive;
+    text-shadow: 0px 15px 6px rgba(0, 0, 0, 0.75);
+}
+
+.welcome_text p{
+    height: 150px;
+    font-size: 130px;
+    font-family: 'Alex Brush', cursive;
+    box-shadow: black;
+    text-shadow: 0px 15px 6px rgba(0, 0, 0, 0.75);
+}
+.welcome_text h3{
+    height: 50px;
+    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 0px 15px 6px rgba(0, 0, 0, 0.75);
+}
+.fakafaka{
+    margin: 0  auto;
+
+}
+
+         /*media part-----*/
+
+@media (max-width: 2000px){
+    .welcome_text p:first-child{
+        font-size: 60px;
+    }
+    .welcome_text p{
+        font-size: 130px;
+    }
+    .welcome_text h3{
+        font-size: 35px;
+    }
+}
+@media (max-width: 1500px) and (min-width: 980px){
+    .welcome_text p:first-child{
+        font-size: 50px;
+
+    }
+    .welcome_text p{
+        font-size: 85px;
+        height: 100px;
+    }
+    .welcome_text h3{
+        font-size: 20px;
+        height: 30px;
+    }
+}
+@media (max-width: 980px) and (min-width: 576px){
+    .welcome_text p{
+        font-size: 50px;
+        height: 50px;
+    }
+    .welcome_text h3{
+        font-size: 15px;
+    }
+    .welcome_text p:first-child{
+        font-size: 50px;
+    }
+}
+@media (max-width: 576px) {
+    .welcome_text{
+        margin: 1px 0 0 0;
+    }
+    .welcome_text p{
+        font-size: 24px;
+        height: 35px;
+
+    }
+    .welcome_text h3{
+        font-size: 10px;
+        height: 12px;
+
+    }
+    .welcome_text p:first-child{
+        font-size: 20px;
+        height: 10px;
+    }
+}
+@media (max-width: 120px){
+    .welcome_text{
+        margin: 1px 0 0 0;
+    }
+    .welcome_text p{
+        font-size: 12px;
+        height: 20px;
+
+    }
+    .welcome_text h3{
+        font-size: 10px;
+        height: 8px;
+
+    }
+    .welcome_text p:first-child{
+        font-size: 12px;
+        height: 10px;
+    }
+}
+
+
+.Bookbtn{
+    font-size: 30px;
+    width: 170px !important;
+}
+
+@media all and (max-width: 992px){
+    .BtnNav {
+        width: 100% !important;
+    }
+}
